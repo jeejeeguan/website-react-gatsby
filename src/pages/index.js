@@ -15,7 +15,7 @@ const IndexPage = () => (
         <p>Welcome to your ne Gate.</p>
         <p>Now go build something great.</p>
         <Link to="/page-2/">Go to page 2</Link> <br />
-        <Link to="/using-typescript/">"Using TypeScript"</Link>
+        {/* <Link to="/using-typescript/">"Using TypeScript"</Link> */}
       </div>
     </div>
   </Layout>
