@@ -5,12 +5,10 @@ import Layout from "../components/layout";
 import Image from "../components/image";
 import SEO from "../components/seo";
 import Header from "../components/header";
-import App from "../components/animation";
 
 const IndexPage = () => (
   <Layout>
     <Header />
-    <AniamtionLogo />
     <div className="Hero">
       <div className="HeroGroup">
         <SEO title="Home" />
