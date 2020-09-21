@@ -10,8 +10,12 @@ React 不是一个开箱即用的框架，上手途径可以分为两种，一�
 
 ## [01-Intro to React](01.intro-to-react.md)
 
-快速简单安装和使用 Gatsby 框架的路径。
+快速简单安装和使用 Gatsby 框架的路径
 
 ## [02.BasicStylinginCSS](02.BasicStylinginCSS.md)
 
-介绍在 Gatsby 里使用 CSS 的基本方法。
+介绍在 Gatsby 里使用 CSS 的基本方法
+
+## [03.AdaptiveLayoutswithCSSGrid](03.AdaptiveLayoutswithCSSGrid.md)
+
+CSS 网格自适应布局

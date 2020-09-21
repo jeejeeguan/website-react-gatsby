@@ -77,8 +77,19 @@ body {
   background: white;
   border: 1px solid white;
   border-radius: 16px;
-  color: blue;
+  color: black;
   padding: 8px 24px;
   /* transition 这段代码是从 jaylee 官网抄的 */
   transition: 0.6s all cubic-bezier(0.23, 1.25, 0.46, 1);
+}
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+  .Hero h1 {
+    font-size: 40px;
+  }
+  .Hero p {
+    font-size: 24px;
+  }
 }
