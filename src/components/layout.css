@@ -18,8 +18,8 @@ body {
 }
 
 .Hero {
-  /* background: url(../images/jack-b-A1EUK5S7g_g-unsplash.jpg); */
-  background-image: repeating-linear-gradient(
+  background: url(../images/jack-b-A1EUK5S7g_g-unsplash.jpg);
+  /* background: repeating-linear-gradient(
       90deg,
       rgba(243, 243, 243, 0.05) 0px,
       rgba(243, 243, 243, 0.05) 1px,
@@ -47,10 +47,12 @@ body {
       transparent 1px,
       transparent 27px
     ),
-    linear-gradient(90deg, rgb(32, 14, 97), rgb(100, 7, 109));
-  height: 1080px;
+    linear-gradient(90deg, rgb(32, 14, 97), rgb(100, 7, 109)); */
+  height: 920px;
+  /* width: 100%; */
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .HeroGroup {
   margin: 0 auto;
@@ -120,4 +122,11 @@ body {
     opacity: 1;
     transform: translateY(0px);
   }
+}
+
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* width: 100%; */
 }

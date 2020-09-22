@@ -33,3 +33,5 @@ React 的 JSX 是 JavaScript 的语法扩展，在 VS Code 中并没有默认开
 ![](./md-images/livesever03.png)
 
 ( **Tips:** 软件的路径可以通过一个小技巧得到，打开终端 Terminal，把想要查看的软件，文件或者文件夹拖拽到终端里面就会显示出来具体的路径，终端里显示的路径是包含转义符的，而 VS Code 的 setting json 里不需要包含转义符，所以如果有转义符的话，记得去掉，比如我上面的例子中，在 终端里显示的路径其实是 /Applications/Firefox\ Nightly.app，要把 Firefox 后面的反斜杠去掉后写进 VS Code 里才正确。)
+
+(**风险:** 自定义 live sever 的关联浏览器后，发现后期有唤醒不了的 bug，所以又改默认的 Chrome 了，汗……)
