@@ -1,20 +1,6 @@
-# AdaptiveLayoutswithCSSGrid
+# 03-AdaptiveLayoutswithCSSGrid
 
 编写基础 CSS 样式代码
-
-## 1.使用 [Google Fonts](https://fonts.google.com/) 字体
-
-Google Fonts 是 Google 的一个免费开源字体库，设计师人手必备。
-
-引入到网页有两种方式：<link>标签和 CSS @import，我选择的是第二种 CSS 引入的方式，以 Racing Sans One 这个字体为例，CSS 源码示例如下：
-
-```
-@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
-
-* {
-  font-family: "Racing Sans One", cursive;
-}
-```
 
 ## 问题与解决问题
 

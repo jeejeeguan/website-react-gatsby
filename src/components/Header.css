@@ -26,6 +26,13 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: 0.6s all cubic-bezier(0.23, 1.25, 0.46, 1);
+}
+.HeaderGroup button:hover {
+  color: white;
+  background: rgb(145, 7, 209);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
 }
 @media (max-width: 640px) {
   .Header {
