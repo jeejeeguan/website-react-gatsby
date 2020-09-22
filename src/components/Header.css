@@ -19,13 +19,21 @@
 }
 .HeaderGroup button {
   font-size: 20px;
+  color: white;
   padding: 0 32px;
   line-height: 36px;
-  background: white;
+  background: rgb(6, 120, 139);
   border-radius: 16px;
   border: none;
   outline: none;
   cursor: pointer;
+  transition: 1s all cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.HeaderGroup button:hover {
+  background: white;
+  color: black;
+  box-shadow: 0 10 20 rgba(27, 7, 59, 0.4);
+  transform: translateY(-4px);
 }
 @media (max-width: 640px) {
   .Header {

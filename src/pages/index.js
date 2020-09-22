@@ -12,10 +12,11 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <SEO title="Home" />
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gtsby site.</p>
-        <p>Welcome to your ne Gate.</p>
-        <p>Now go build something great.</p>
+        <h1>Paul Rand</h1>
+        <p>
+          Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
+          was an American art director and graphic designer
+        </p>
         <Link to="/page-2/">Go to page 2</Link> <br />
       </div>
     </div>
