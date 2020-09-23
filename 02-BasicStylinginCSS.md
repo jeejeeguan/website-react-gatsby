@@ -46,6 +46,10 @@ body {
 
 ```
 
+**Tips:** 相对路径 `src: url("../fonts/Inter.var.woff2")` 里的可变字体文件可以在 Google Fonts 里的 Download Family 下载到：
+
+![](./md-images/downloadfamily.png)
+
 ## 3.CSS 中 background-size 设置背景图片大小
 
 在保持原有比例的前提下，通常采用下面两种
