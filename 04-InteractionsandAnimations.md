@@ -2,13 +2,27 @@
 
 使用关键帧的时间轴动画
 
-## 1.CSS3 动画属性 transition
-
-保险做法是把 transition 写在 CSS 选在器上，而不是 :hover 上，示例：
-
 ```
-.selector{
-/* transition 这句代码是从 jaylee 官网抄的 */
-  transition: 0.6s all cubic-bezier(0.23, 1.25, 0.46, 1);
+.KeyframesAnimation {
+  /* animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1); */
+
+  /* 上面 5 句可以简写成下面的，但要保证顺序 */
+  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 ```

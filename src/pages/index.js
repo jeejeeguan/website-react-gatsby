@@ -19,16 +19,15 @@ const IndexPage = () => (
         </p>
         <Link to="/page-2/">Go to page 2</Link> <br />
         <div className="Logos">
-          <img src={require("../images/Book-open.svg")} width="48" />
-          <img src={require("../images/Compiling.svg")} width="48" />
-          <img src={require("../images/Flower#1.svg")} width="48" />
-          <img src={require("../images/Half-heart.svg")} width="48" />
+          <img src={require("../images/Book-open.svg")} alt="" width="48" />
+          <img src={require("../images/Compiling.svg")} alt="" width="48" />
+          <img src={require("../images/Flower#1.svg")} alt="" width="48" />
+          <img src={require("../images/Half-heart.svg")} alt="" width="48" />
         </div>
       </div>
       <svg
         width="100%"
         height="200"
-        viewBox="0 0 100% 200"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

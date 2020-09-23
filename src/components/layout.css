@@ -131,3 +131,18 @@ body {
   left: 0;
   /* width: 100%; */
 }
+
+.Hero .Logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  margin: 64px 0;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 640px) {
+  .Hero .Logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
