@@ -22,11 +22,11 @@ React 不是一个开箱即用的框架，上手途径可以分为两种，一�
 
 ## [04-交互和动画](04-InteractionsandAnimations.md)
 
-使用关键帧的时间轴动画（未完成）
+使用关键帧的时间轴动画
 
 ## [05-SVG 动画](05-SVGAnimation.md)
 
-使用 SVG 代码制作变形图形（未完成）
+使用 SVG 代码制作变形图形
 
 ## [06-组件和属性](06-ComponentsandProps.md)
 
