@@ -18,8 +18,8 @@ body {
 }
 
 .Hero {
-  background: url(../images/jack-b-A1EUK5S7g_g-unsplash.jpg);
-  /* background: repeating-linear-gradient(
+  /* background: url(../images/jack-b-A1EUK5S7g_g-unsplash.jpg); */
+  background: repeating-linear-gradient(
       90deg,
       rgba(243, 243, 243, 0.05) 0px,
       rgba(243, 243, 243, 0.05) 1px,
@@ -47,7 +47,7 @@ body {
       transparent 1px,
       transparent 27px
     ),
-    linear-gradient(90deg, rgb(32, 14, 97), rgb(100, 7, 109)); */
+    linear-gradient(90deg, rgb(32, 14, 97), rgb(100, 7, 109));
   height: 920px;
   /* width: 100%; */
   background-size: cover;
@@ -80,6 +80,7 @@ body {
   color: rgba(255, 255, 255, 1);
   font-size: 30px;
   line-height: 1.2;
+  margin-bottom: 40px;
   opacity: 0;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
