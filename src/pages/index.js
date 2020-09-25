@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import Image from "../components/image";
 import SEO from "../components/seo";
 import Header from "../components/header";
+import Card from "../components/card";
 
 const IndexPage = () => (
   <Layout>
@@ -49,6 +50,14 @@ const IndexPage = () => (
           />
         </path>
       </svg>
+    </div>
+    <div className="Cards">
+      <h2>11 courses are comming</h2>
+      <Card
+        image={require("../images/card-wallpaper01.png")}
+        title="React for Designers"
+        text="12 sections"
+      />
     </div>
   </Layout>
 );
