@@ -84,10 +84,7 @@ const IndexPage = () => (
       image={require("../images/sectionwallpaper.png")}
       logo={require("../images/sectionlogo.png")}
       title="Paul Rand"
-      text="Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
-      was an American art director and graphic designer, Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
-      was an American art director and graphic designer, Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
-      was an American art director and graphic designer, "
+      text="Paul Rand was born Peretz Rosenbaum on August 15, 1914 in Brooklyn, New York.[3] He embraced design at a very young age, painting signs for his father's grocery store as well as for school events at P.S. 109.[4] Rand's father did not believe art could provide his son with a sufficient livelihood, and so he required Paul to attend Manhattan's Haaren High School while taking night classes at the Pratt Institute."
     />
   </Layout>
 );

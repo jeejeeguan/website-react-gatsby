@@ -10,6 +10,13 @@
   transition: 1s all cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+@media (max-width: 720px) {
+  .Card {
+    width: 450px;
+    height: 275px;
+  }
+}
+
 .Card img {
   position: absolute;
   top: 0;

@@ -4,12 +4,17 @@ import Wave from "./Wave";
 
 const SectionGroup = styled.div`
   background: url(${(props) => props.image});
-  height: 720px;
+  height: 780px;
   background-size: cover;
   display: grid;
   grid-template-rows: 300px auto;
   grid-gap: 20px;
   position: relative;
+  padding: 40px 0 24px 0;
+
+  @media (max-width: 640px) {
+    height: 900px;
+  }
 `;
 
 const SectionLogo = styled.img`
@@ -33,6 +38,10 @@ const SectionTitle = styled.h3`
   font-size: 60px;
   margin: 0;
   line-height: 1.2;
+  @media (max-width: 720px) {
+    text-align: center;
+    font-size: 50px;
+  }
 `;
 const SectionText = styled.p`
   color: white;
@@ -44,16 +53,21 @@ const WaveBottom = styled.div`
   bottom: -6px;
 `;
 
-const WaveTop = styled.div``;
+const WaveTop = styled.div`
+  position: absolute;
+  width: 100%;
+  top: -6px;
+  transform: rotate(180deg);
+`;
 
 const Section = (props) => (
   <SectionGroup image={props.image}>
-    <WaveBottom>
-      <Wave />
-    </WaveBottom>
     <WaveTop>
       <Wave />
     </WaveTop>
+    <WaveBottom>
+      <Wave />
+    </WaveBottom>
     <SectionLogo src={props.logo} />
     <SectionTitleGroup>
       <SectionTitle>{props.title}</SectionTitle>
