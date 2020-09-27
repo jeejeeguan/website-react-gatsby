@@ -1,8 +1,13 @@
 .Header {
   position: fixed;
   width: 100%;
-  padding: 50px 0;
+  padding: 36px 0;
   z-index: 100;
+  transition: 1s all cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.HeaderScrolled {
+  background: linear-gradient(90deg, rgb(32, 14, 97), rgb(100, 7, 109));
+  padding: 16px 0;
 }
 .HeaderGroup {
   max-width: 800px;
@@ -19,19 +24,19 @@
 }
 .HeaderGroup button {
   font-size: 20px;
-  color: white;
+  color: rgb(32, 14, 97);
   padding: 0 32px;
   line-height: 36px;
-  background: rgb(6, 120, 139);
-  border-radius: 16px;
+  background: white;
+  border-radius: 18px;
   border: none;
   outline: none;
   cursor: pointer;
   transition: 1s all cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .HeaderGroup button:hover {
-  background: white;
-  color: black;
+  background: rgb(112 36 191);
+  color: white;
   box-shadow: 0 10 20 rgba(27, 7, 59, 0.4);
   transform: translateY(-4px);
 }

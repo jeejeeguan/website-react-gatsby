@@ -18,7 +18,7 @@ const IndexPage = () => (
           Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
           was an American art director and graphic designer
         </p>
-        <Link to="/page-2/">Go to page 2</Link> <br />
+        <Link to="/page-2/">Go to page 2</Link>
         <div className="Logos">
           <img src={require("../images/Book-open.svg")} alt="" width="48" />
           <img src={require("../images/Compiling.svg")} alt="" width="48" />
