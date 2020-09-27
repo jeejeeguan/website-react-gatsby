@@ -99,7 +99,7 @@ body {
   /* border-bottom: 1px dashed #ffffff; */
   background: white;
   border: 1px solid white;
-  border-radius: 16px;
+  border-radius: 30px;
   color: black;
   padding: 8px 24px;
 }
@@ -153,7 +153,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   margin: 50px 40px 100px;
   column-gap: 40px;
-  row-gap: 40px;
+  row-gap: 80px;
   justify-items: center;
 }
 

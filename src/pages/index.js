@@ -6,6 +6,7 @@ import Image from "../components/image";
 import SEO from "../components/seo";
 import Header from "../components/header";
 import Card from "../components/card";
+import Section from "../components/Section";
 
 const IndexPage = () => (
   <Layout>
@@ -52,7 +53,7 @@ const IndexPage = () => (
       </svg>
     </div>
     <div className="Cards">
-      <h2>11 courses are comming</h2>
+      <h2>12 Amazing Projects</h2>
       <div className="CardGroup">
         <Card
           image={require("../images/card-wallpaper01.png")}
@@ -101,6 +102,15 @@ const IndexPage = () => (
         />
       </div>
     </div>
+    <Section
+      image={require("../images/sectionwallpaper.png")}
+      logo={require("../images/sectionlogo.png")}
+      title="Paul Rand"
+      text="Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
+      was an American art director and graphic designer, Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
+      was an American art director and graphic designer, Paul Rand (born Peretz Rosenbaum; August 15, 1914 – November 26, 1996)
+      was an American art director and graphic designer, "
+    />
   </Layout>
 );
 
