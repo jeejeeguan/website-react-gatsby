@@ -144,5 +144,38 @@ body {
 @media (max-width: 640px) {
   .Hero .Logos {
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
   }
+}
+
+.CardGroup {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px 40px 100px;
+  column-gap: 40px;
+  row-gap: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.Cards h2 {
+  color: black;
+  margin: 0 20px 60px 20px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(90deg, rgb(32, 14, 97), rgb(100, 7, 109));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

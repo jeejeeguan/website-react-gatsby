@@ -53,11 +53,53 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
       <h2>11 courses are comming</h2>
-      <Card
-        image={require("../images/card-wallpaper01.png")}
-        title="React for Designers"
-        text="12 sections"
-      />
+      <div className="CardGroup">
+        <Card
+          image={require("../images/card-wallpaper01.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper02.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper03.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper04.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper05.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper06.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper07.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper08.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+        <Card
+          image={require("../images/card-wallpaper09.png")}
+          title="React for Designers"
+          text="12 sections"
+        />
+      </div>
     </div>
   </Layout>
 );
