@@ -7,14 +7,18 @@ const CellImage = styled.div`
   heigth: 60px;
   background: black;
   border-radius: 12px;
-  background-image: url(${(props) => props.image});
+  ${"" /* background-image: url(${(props) => props.image}); */}
   background-size: 60px;
 `;
 const CellTitle = styled.div``;
 
 const Cell = (props) => (
   <CellGroup>
-    <CellImage image={props.image}></CellImage>
+    {/* <CellImage image={props.image}></CellImage> */}
+    <CellImage>
+      {" "}
+      <img src={props.image} alt="" />{" "}
+    </CellImage>
     <CellTitle> {props.title} </CellTitle>
   </CellGroup>
 );
