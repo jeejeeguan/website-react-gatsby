@@ -1,23 +1,27 @@
 import React from "react";
 import styled from "styled-components";
 
-const CellGroup = styled.div``;
+const CellGroup = styled.div`
+  display: grid;
+  grid-template-columns: 60px auto;
+  grid-gap: 25px;
+  align-items: center;
+`;
 const CellImage = styled.div`
   width: 60px;
-  heigth: 60px;
+  height: 60px;
   background: black;
   border-radius: 12px;
-  ${"" /* background-image: url(${(props) => props.image}); */}
-  background-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 const CellTitle = styled.div``;
 
 const Cell = (props) => (
   <CellGroup>
-    {/* <CellImage image={props.image}></CellImage> */}
     <CellImage>
-      {" "}
-      <img src={props.image} alt="" />{" "}
+      <img src={props.image} style={{ width: 40, height: 40 }} alt="" />
     </CellImage>
     <CellTitle> {props.title} </CellTitle>
   </CellGroup>
