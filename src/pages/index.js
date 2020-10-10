@@ -11,17 +11,20 @@ import Wave from "../components/Wave";
 import staticdata from "../../content/staticdata.json";
 import Cell from "../components/Cell";
 import styled from "styled-components";
+import Footer from "../components/Footer";
 
 const SectionCaption = styled.p`
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 36px;
 `;
 const SectionGroup = styled.div`
   max-width: 800px;
   margin: 0 auto;
   padding: 0 40px;
+  margin-bottom: 88px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 40px;
@@ -114,6 +117,7 @@ const IndexPage = () => (
         <Cell key={index} title={cell.title} image={cell.image} />
       ))}
     </SectionGroup>
+    <Footer />
   </Layout>
 );
 

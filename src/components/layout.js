@@ -23,6 +23,14 @@ const Layout = ({ children }) => {
           author
         }
       }
+      allContentfulLink {
+        edges {
+          node {
+            title
+            url
+          }
+        }
+      }
     }
   `);
 
