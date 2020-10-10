@@ -15,10 +15,10 @@ import Footer from "../components/Footer";
 
 const SectionCaption = styled.p`
   font-weight: 600;
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 36px;
+  margin-bottom: 40px;
 `;
 const SectionGroup = styled.div`
   max-width: 800px;
@@ -27,7 +27,7 @@ const SectionGroup = styled.div`
   margin-bottom: 88px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 40px;
+  column-gap: 64px;
 
   @media (max-width: 800px) {
     grid-template-columns: repeat(1, 1fr);
