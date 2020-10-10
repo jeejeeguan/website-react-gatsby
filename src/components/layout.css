@@ -151,7 +151,7 @@ body {
 .CardGroup {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 50px 40px 100px;
+  margin: 50px auto 40px auto;
   column-gap: 40px;
   row-gap: 80px;
   justify-items: center;
