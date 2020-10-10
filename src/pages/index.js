@@ -10,6 +10,26 @@ import Section from "../components/Section";
 import Wave from "../components/Wave";
 import staticdata from "../../content/staticdata.json";
 import Cell from "../components/Cell";
+import styled from "styled-components";
+
+const SectionCaption = styled.p`
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+`;
+const SectionGroup = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
 
 const IndexPage = () => (
   <Layout>
@@ -88,9 +108,12 @@ const IndexPage = () => (
       title="Paul Rand"
       text="Paul Rand was born Peretz Rosenbaum on August 15, 1914 in Brooklyn, New York.[3] He embraced design at a very young age, painting signs for his father's grocery store as well as for school events at P.S. 109.[4] Rand's father did not believe art could provide his son with a sufficient livelihood, and so he required Paul to attend Manhattan's Haaren High School while taking night classes at the Pratt Institute."
     />
-    {staticdata.cells.map((cell, index) => (
-      <Cell key={index} title={cell.title} image={cell.image} />
-    ))}
+    <SectionCaption>12 Sections - 6 Hours</SectionCaption>
+    <SectionGroup>
+      {staticdata.cells.map((cell, index) => (
+        <Cell key={index} title={cell.title} image={cell.image} />
+      ))}
+    </SectionGroup>
   </Layout>
 );
 
