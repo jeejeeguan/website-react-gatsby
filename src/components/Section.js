@@ -12,7 +12,7 @@ const SectionGroup = styled.div`
   position: relative;
   padding: 40px 0 24px 0;
 
-  @media (max-width: 640px) {
+  @media (max-width: 800px) {
     height: 900px;
   }
 `;
