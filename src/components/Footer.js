@@ -10,6 +10,10 @@ const FooterGroup = styled.div`
   padding: 50px 0;
   display: grid;
   row-gap: 20px;
+
+  @media (max-width: 720px) {
+    width: 450px;
+  }
 `;
 const Text = styled.p`
   font-size: 24px;
@@ -45,6 +49,14 @@ const LinkGroup = styled.div`
   column-gap: 72px;
   transition: 1s all cubic-bezier(0.2, 0.8, 0.2, 1);
 
+  @media (max-width: 720px) {
+    width: 450px;
+    margin: 40px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 12px;
+  }
+
   a {
     text-decoration: none;
     transition: 0.8s;
@@ -67,6 +79,11 @@ const FooterRefs = styled.p`
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+
+  @media (max-width: 720px) {
+    width: 450px;
+    margin: 0 40px;
+  }
 `;
 
 export default ({ children }) => {
