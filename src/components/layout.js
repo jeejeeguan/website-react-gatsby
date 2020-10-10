@@ -17,7 +17,10 @@ const Layout = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
+          description
+          keywords
           title
+          author
         }
       }
     }

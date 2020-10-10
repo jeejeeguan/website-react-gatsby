@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `WEBSITE-REACT-GATSBY`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    keywords: `React`,
+    title: `Paul Rand`,
+    description: `Paul Rand was an American art director and graphic designer, best known for his corporate logo designs, including the logos for IBM, UPS, Enron, Morningstar, Inc., Westinghouse, ABC, and NeXT. He was one of the first American commercial artists to embrace and practice the Swiss Style of graphic design.`,
+    author: `JeeJee`,
+    keywords: `Paul Rand`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
