@@ -103,7 +103,7 @@ body {
   color: black;
   padding: 8px 24px;
 }
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   .HeroGroup {
     padding: 100px 20px;
   }
@@ -163,7 +163,7 @@ body {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 640px) {
   .CardGroup {
     grid-template-columns: repeat(1, 1fr);
   }
