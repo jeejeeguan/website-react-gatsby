@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useStaticQuery, Link, graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 // const Footer = ({ children }) => {...}
 // export default Footer
